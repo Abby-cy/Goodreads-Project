@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none;
+}
+header{
+    background-color: #F4F1EA;
+    opacity: 1;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; */
+}
+nav{
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid #37200F;   */
+}
+.nav-menu-list{
+    display: flex;
+    gap: 3em;
+}
+.nav-list{
+    color: #37200F;
+    font-weight: 400;
+}
+nav button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #37200F;
+    color: white;
+    font-weight: 500;
+}
+nav div{
+    display: flex;
+    gap: 6em;
+}
+/* ---media query */
+.hero-sect{
+    background-color: #F4F1EA;
+    padding: 60px 50px;
+    text-align: center;
+}
+.hero-sect h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: #37200F;
+}
+.search{
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+    width: 80%;
+    padding: 14px 16px;
+}
+/* ---media query--- */
+.new-to-goodreads{
+    margin: 10px auto;
+    width: 98%;
+    height: 50px;
+    background-color: #D0D5E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq{
+    color: #003A37;
+}
+.faq:hover{
+    text-decoration: underline !important;
+}
+/* ---media query--- */
+.tabs{
+    padding: 20px;
+}
+.tab-img{
+    display: flex;
+    flex-direction: column;
+}
