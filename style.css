@@ -434,6 +434,63 @@ ul{
 .btn-submit:hover{
     background-color: #EDE6D6;
 }
+.sign-in2{
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 0.8em;
+    visibility: hidden;
+}
+.sign-in-content2{
+    text-align: center;
+}
+.sign-in-content2 h3{
+    font-size: 20px;
+}
+.amazon2{
+    background-color: #FFD666;
+    margin: auto;
+    border: 1px solid rgb(186, 122, 2);
+    border-radius: 5px;
+    padding: 12px 32px;
+    font-size: 14px;
+    display: flex;
+    gap: 0.2em;
+    align-items: center;
+}
+.amazon2:hover{
+    background-color: #f6b235;
+}
+.apple2{
+    background-color: #FFFFFF;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 12px 36px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.email2{
+    background-color: #3f2512;
+    color: white;
+    margin: auto;
+    border: 1px solid #3f2512;
+    border-radius: 5px;
+    padding: 16px 52px;
+    font-size: 14px;
+}
+.email2:hover{
+    background-color: #58371F;
+}
+.thin-line2{
+    border: none;
+    border-top: 1px solid rgb(74, 73, 73);
+    margin: 6px 0;
+}
 @media(max-width: 1230px){
     .reading h3{
         font-size: 14px;
@@ -637,6 +694,9 @@ ul{
     .choice-list img{
         width: 80px;
         height: 120px;
+    }
+    .sign-in2{
+        visibility: visible;
     }
 }
 @media(max-width: 500px){
